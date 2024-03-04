@@ -44,3 +44,4 @@ requests-toolbelt==0.10.1
 TgCrypto==1.2.5
 
 urllib3==1.26.15
+uvloop
