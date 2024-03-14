@@ -24,9 +24,9 @@ import os
 import uvloop
 
 bot = Client("bot",
-             bot_token= "6206137924:AAGAUcCYCLXYhuCrLjdyAB7KZNiLB09YpiY",
-             api_id= 27803618,
-             api_hash= "2cdaef9643189f6bd9c7b31a70257356"
+             bot_token= "6635509380:AAFCErSnL16_xCcWTt_iIPnltrfP8c2sLlM",
+             api_id= 25129557,
+             api_hash= "83c9546cfdee154fd2d16759c4d0582a"
 )
 
 @bot.on_message(filters.command(["start"]))
@@ -181,8 +181,8 @@ async def account_login(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'[ 🎬 ] **Vid ID : **{str(count).zfill(3)}\n**Video Title :** {name1}\n**Batch Name :** {b_name}\n\n**Downloaded By ➤** {CR}'
-                cc1 = f'[ 📕 ] **Pdf ID : **{str(count).zfill(3)}\n**File Title :** {name1}\n**Batch Name :**{b_name}\n\n**Downloaded By ➤** {CR}'
+                cc = f'[ 🎬 ] **Vid ID : **{str(count).zfill(3)}\n**Video Title :** {name1}\n**Batch Name :** {b_name}\n\n**𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝘽𝙮 ➤** {CR}'
+                cc1 = f'[ 📕 ] **Pdf ID : **{str(count).zfill(3)}\n**File Title :** {name1}\n**Batch Name :**{b_name}\n\n**𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝘽𝙮 ➤** {CR}'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -209,7 +209,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    prog = await m.reply_text(f"**Downloading:-**\n\n**Title ➤** `{name}`\n**Quality ➤** `{raw_text2}`\n\n**Bot By ➤ **༺𝙅𝙊𝙃𝙉✪𝙒𝙄𝘾𝙆༻™")
+                    prog = await m.reply_text(f"**🅳🅾🆆🅽🅻🅾🅰🅳🅸🅽🅶:-**\n\n**Title ➤** `{name}`\n**Quality ➤** `{raw_text2}`\n\n**𝑩𝒐𝒕 𝑩𝒚 ➤ **༺𝙅𝙊𝙃𝙉✪𝙒𝙄𝘾𝙆༻™")
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
                     await prog.delete(True)
@@ -223,7 +223,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("Done ✅")
+    await m.reply_text("कम हो गया मालिक")
 @bot.on_message(filters.command(["vpdf"]))
 async def vision_pdf(bot: Client, m: Message):
     editable = await m.reply_text("Hi 👋 Sir!\n\nHow are You ?\n\n☞ I'm **Vision Pdf** Downloader Bot.\n\n☞ Send ' /vpdf ' Command to Download **Vision IAS** Pdf.\n\n☞ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 : ༺𝙅𝙊𝙃𝙉✪𝙒𝙄𝘾𝙆༻\n")
