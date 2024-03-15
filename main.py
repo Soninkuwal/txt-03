@@ -223,7 +223,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("कम हो गया मालिक")
+    await m.reply_text("DONE 😴")
 @bot.on_message(filters.command(["vpdf"]))
 async def vision_pdf(bot: Client, m: Message):
     editable = await m.reply_text("Hi 👋 Sir!\n\nHow are You ?\n\n☞ I'm **Vision Pdf** Downloader Bot.\n\n☞ Send ' /vpdf ' Command to Download **Vision IAS** Pdf.\n\n☞ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 : ༺𝙅𝙊𝙃𝙉✪𝙒𝙄𝘾𝙆༻\n")
