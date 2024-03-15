@@ -112,8 +112,8 @@ async def send_vid(bot: Client, m: Message, cc, filename, thumb, name):
     subprocess.run(
         f'ffmpeg -i "{filename}" -ss 00:01:00 -vframes 1 "{filename}.jpg"',
         shell=True)
-   # await prog.delete(True)
-   # reply = await m.reply_text(f"**Uploading ...** - `{name}`")
+    await prog.delete(True)
+    reply = await m.reply_text(f"**Uploading ...** - `{name}`")
     try:
         if thumb == "no":
             thumbnail = f"{filename}.jpg"
@@ -141,4 +141,4 @@ async def send_vid(bot: Client, m: Message, cc, filename, thumb, name):
     os.remove(filename)
 
     os.remove(f"{filename}.jpg")
-   # await prog.delete(True)
+    await prog.delete(True)
