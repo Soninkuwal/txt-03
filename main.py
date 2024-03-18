@@ -24,9 +24,9 @@ import os
 import uvloop
 
 bot = Client("bot",
-             bot_token= "6635509380:AAFCErSnL16_xCcWTt_iIPnltrfP8c2sLlM",
-             api_id= 25129557,
-             api_hash= "83c9546cfdee154fd2d16759c4d0582a"
+             bot_token= "6737916993:AAHO4zIF5e4KKfOr8avb0adxA_2iWafPZ9k",
+             api_id= 20945078,
+             api_hash= "93f6b8ce4bb0ab61b4c7e42187f2aa64"
 )
 
 @bot.on_message(filters.command(["start"]))
@@ -40,7 +40,7 @@ async def restart_handler(_, m):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@bot.on_message(filters.command(["TXT"]))
+@bot.on_message(filters.command(["txt"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(f"**Now Send Me Your **txt** File & Follow Bot Instructions**")
     input: Message = await bot.listen(editable.chat.id)
