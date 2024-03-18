@@ -30,7 +30,7 @@ Use these settings when adding a monitor:</b>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/pjvip/USA_uploader2">
+<a href="https://render.com/deploy?repo=https://github.com/Soninkuwal/txt-04">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>                                      
@@ -41,7 +41,7 @@ Use these settings when adding a monitor:</b>
 
 ## Deploy To Heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/pkvgithub/-self">
+<a href="https://heroku.com/deploy?template=https://github.com/Soninkuwal/txt-04">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
