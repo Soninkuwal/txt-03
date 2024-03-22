@@ -26,8 +26,9 @@ import uvloop
 bot = Client("bot",
              bot_token= "6737916993:AAFekJfPyn63QiEf1e6paM_IyZavHiKyV6Y",
              api_id= 20945078,
-             api_hash= "93f6b8ce4bb0ab61b4c7e42187f2aa64"
-)
+             api_hash= "93f6b8ce4bb0ab61b4c7e42187f2aa64")
+#auth_users id - 1234736828,1375282662
+auth_users =  [1664376941,1139197196]
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
