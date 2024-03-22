@@ -12,3 +12,11 @@ OWNER = int(os.environ.get("OWNER", 1664376941))
 
 LOG = -1002057338886
 
+try:
+    ADMINS=[]
+    #auth_users id - 1234736828 1375282662
+    for x in (os.environ.get("ADMINS", "1664376941 139197196").split()):
+        ADMINS.append(int(x))
+except ValueError:
+        raise Exception("Your Admins list does not contain valid integers.")
+ADMINS.append(OWNER)
