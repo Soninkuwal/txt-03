@@ -38,7 +38,7 @@ Use these settings when adding a monitor:</b>
 
 ## Deploy To Google Colab
 
-<a href="https://colab.research.google.com/github.com/Soninkuwal/txt-03/blob/main/.github/Soninkuwal" target="_blank">
+<a href="https://colab.research.google.com/github.com/Soninkuwal/txt-03/blob/main/.github/ashutoshgoswami24" target="_blank">
   <img src="https://ashutoshgoswami24.github.io/Me/img/gc.png" alt="Deploy To Google Colab" style="width:150px;"/>
 </a>
 
