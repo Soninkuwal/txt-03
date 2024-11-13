@@ -36,8 +36,16 @@ Use these settings when adding a monitor:</b>
 </details>                                      
                                     
 
-### Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/.ipyn)
+## Deploy To Google Colab
+
+<a href="https://colab.research.google.com/github/Soninkuwal/TXT-LOVE/blob/main/.github/Soninkuwal" target="_blank">
+  <img src="https://ashutoshgoswami24.github.io/Me/img/gc.png" alt="Deploy To Google Colab" style="width:150px;"/>
+</a>
+
+## Deploy To Koyeb
+              
+<a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/SudoR2spr/text-leech-bot&branch=heroku&name=textleechbot" >
+  <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy"></a>
 
 ## Deploy To Heroku
 
